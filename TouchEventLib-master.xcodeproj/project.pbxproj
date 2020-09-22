@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153581BC2519D22D00963418 /* GView.m in Sources */ = {isa = PBXBuildFile; fileRef = 153581BB2519D22D00963418 /* GView.m */; };
+		153581BF2519D2A800963418 /* AButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 153581BE2519D2A800963418 /* AButton.m */; };
 		6E40814E1F4E7FA00057AF80 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4081431F4E7FA00057AF80 /* BackView.m */; };
 		6E40814F1F4E7FA00057AF80 /* GLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4081451F4E7FA00057AF80 /* GLButton.m */; };
 		6E4081501F4E7FA00057AF80 /* GLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4081471F4E7FA00057AF80 /* GLCell.m */; };
@@ -62,6 +64,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153581BA2519D22D00963418 /* GView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GView.h; sourceTree = "<group>"; };
+		153581BB2519D22D00963418 /* GView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GView.m; sourceTree = "<group>"; };
+		153581BD2519D2A800963418 /* AButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AButton.h; sourceTree = "<group>"; };
+		153581BE2519D2A800963418 /* AButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AButton.m; sourceTree = "<group>"; };
 		6E4081421F4E7FA00057AF80 /* BackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackView.h; sourceTree = "<group>"; };
 		6E4081431F4E7FA00057AF80 /* BackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
 		6E4081441F4E7FA00057AF80 /* GLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLButton.h; sourceTree = "<group>"; };
@@ -159,7 +165,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E4081411F4E7FA00057AF80 /* Gusture冲突 */ = {
+		6E4081411F4E7FA00057AF80 /* 手势冲突 */ = {
 			isa = PBXGroup;
 			children = (
 				6E4081421F4E7FA00057AF80 /* BackView.h */,
@@ -177,10 +183,10 @@
 				6E4081541F4E7FAE0057AF80 /* TouchEventHook.h */,
 				6E4081551F4E7FAE0057AF80 /* TouchEventHook.m */,
 			);
-			path = "Gusture冲突";
+			path = "手势冲突";
 			sourceTree = "<group>";
 		};
-		6E5986CA1F4D243E00DA7FFE /* GestureLib */ = {
+		6E5986CA1F4D243E00DA7FFE /* 手势 Lib */ = {
 			isa = PBXGroup;
 			children = (
 				6E5986CC1F4D276500DA7FFE /* LXFViewController.h */,
@@ -190,10 +196,10 @@
 				6E5986CF1F4D278C00DA7FFE /* YellowView.h */,
 				6E5986D01F4D278C00DA7FFE /* YellowView.m */,
 			);
-			path = GestureLib;
+			path = "手势 Lib";
 			sourceTree = "<group>";
 		};
-		6E5E86211F40B375008EEA42 /* Event Intercept */ = {
+		6E5E86211F40B375008EEA42 /* 事件拦截 */ = {
 			isa = PBXGroup;
 			children = (
 				6E5E86221F40B456008EEA42 /* CircleButton.h */,
@@ -201,7 +207,7 @@
 				6E5E86251F40B515008EEA42 /* CustomeTabBar.h */,
 				6E5E86261F40B515008EEA42 /* CustomeTabBar.m */,
 			);
-			path = "Event Intercept";
+			path = "事件拦截";
 			sourceTree = "<group>";
 		};
 		6EAA4F181F5004A3007D2D33 /* UIControl Lib */ = {
@@ -242,12 +248,12 @@
 		6EAFD95F1F3C2A3B0077CF29 /* TouchEventLib-master */ = {
 			isa = PBXGroup;
 			children = (
-				6EAA4F181F5004A3007D2D33 /* UIControl Lib */,
-				6E5986CA1F4D243E00DA7FFE /* GestureLib */,
-				6E5E86211F40B375008EEA42 /* Event Intercept */,
-				6EFC61D91F3ED90500BE50AC /* MovedView */,
-				6E4081411F4E7FA00057AF80 /* Gusture冲突 */,
+				6EFC61D91F3ED90500BE50AC /* 简单滑动 */,
 				6EAFD9961F3C3C220077CF29 /* Hit_Test */,
+				6E4081411F4E7FA00057AF80 /* 手势冲突 */,
+				6E5E86211F40B375008EEA42 /* 事件拦截 */,
+				6E5986CA1F4D243E00DA7FFE /* 手势 Lib */,
+				6EAA4F181F5004A3007D2D33 /* UIControl Lib */,
 				6EAFD9631F3C2A3B0077CF29 /* AppDelegate.h */,
 				6EAFD9641F3C2A3B0077CF29 /* AppDelegate.m */,
 				6EAFD9661F3C2A3B0077CF29 /* ViewController.h */,
@@ -310,17 +316,21 @@
 				6EAFD9A41F3C42760077CF29 /* EView.m */,
 				6EAFD9A61F3C4ABC0077CF29 /* FView.h */,
 				6EAFD9A71F3C4ABC0077CF29 /* FView.m */,
+				153581BA2519D22D00963418 /* GView.h */,
+				153581BB2519D22D00963418 /* GView.m */,
+				153581BD2519D2A800963418 /* AButton.h */,
+				153581BE2519D2A800963418 /* AButton.m */,
 			);
 			path = Hit_Test;
 			sourceTree = "<group>";
 		};
-		6EFC61D91F3ED90500BE50AC /* MovedView */ = {
+		6EFC61D91F3ED90500BE50AC /* 简单滑动 */ = {
 			isa = PBXGroup;
 			children = (
 				6EFC61DA1F3ED93A00BE50AC /* MovedView.m */,
 				6EFC61DB1F3ED93A00BE50AC /* MovedView.h */,
 			);
-			path = MovedView;
+			path = "简单滑动";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EAA4F2D1F501EDC007D2D33 /* CLTapGestureRecognizer.m in Sources */,
+				153581BF2519D2A800963418 /* AButton.m in Sources */,
 				6E5E86271F40B515008EEA42 /* CustomeTabBar.m in Sources */,
 				6EFC61DC1F3ED93A00BE50AC /* MovedView.m in Sources */,
 				6E5986D41F4D5C2B00DA7FFE /* LXFTapGestureRecognizer.m in Sources */,
@@ -482,6 +493,7 @@
 				6EAFD9A01F3C3C4A0077CF29 /* BView.m in Sources */,
 				6EAFD99F1F3C3C4A0077CF29 /* AView.m in Sources */,
 				6E4081501F4E7FA00057AF80 /* GLCell.m in Sources */,
+				153581BC2519D22D00963418 /* GView.m in Sources */,
 				6EAFD9621F3C2A3B0077CF29 /* main.m in Sources */,
 				6E4081561F4E7FAE0057AF80 /* TouchEventHook.m in Sources */,
 				6EF833231F4C00D600133DAD /* GLGusture.m in Sources */,

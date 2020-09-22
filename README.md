@@ -1,3 +1,7 @@
+不是我写的代码，是从[@Lotheve](https://github.com/Lotheve)的[这个库里](https://github.com/Lotheve/blogdemo/tree/master/TouchEventLib)单独拿出来的
+
+以下为 readme 原文
+
 >好奇触摸事件是如何从屏幕转移到APP内的？
 >困惑于Cell怎么突然不能点击了？
 >纠结于如何实现这个奇葩响应需求？
