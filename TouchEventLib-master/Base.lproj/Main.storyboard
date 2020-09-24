@@ -311,20 +311,25 @@
                                             <color key="titleColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jo9-et-Sqo" customClass="GLView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jo9-et-Sqo" customClass="GLView">
                                         <rect key="frame" x="299" y="595" width="68" height="64"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.97136430910000005" blue="0.60657072410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="hz5-GJ-eom"/>
+                                            <constraint firstAttribute="width" constant="68" id="kJW-vb-FAm"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.80392156859999997" green="0.80392156859999997" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="nSZ-Hh-PfI" firstAttribute="leading" secondItem="Sn9-1X-KYB" secondAttribute="leading" id="Gpt-A9-ohv"/>
                                     <constraint firstItem="nSZ-Hh-PfI" firstAttribute="top" secondItem="Sn9-1X-KYB" secondAttribute="top" id="TZe-zA-Gmo"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jo9-et-Sqo" secondAttribute="bottom" constant="8" id="V94-zA-g3d"/>
                                     <constraint firstAttribute="bottom" secondItem="rRG-te-rWJ" secondAttribute="bottom" constant="8" id="aAk-F5-tES"/>
                                     <constraint firstAttribute="trailing" secondItem="nSZ-Hh-PfI" secondAttribute="trailing" id="g7U-hO-RfA"/>
                                     <constraint firstAttribute="trailing" secondItem="rRG-te-rWJ" secondAttribute="trailing" constant="91" id="mEU-ZL-Mxs"/>
                                     <constraint firstItem="rRG-te-rWJ" firstAttribute="top" secondItem="nSZ-Hh-PfI" secondAttribute="bottom" constant="42" id="qht-id-Bgc"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jo9-et-Sqo" secondAttribute="trailing" constant="8" id="sr7-zR-xYX"/>
                                     <constraint firstItem="rRG-te-rWJ" firstAttribute="leading" secondItem="Sn9-1X-KYB" secondAttribute="leading" constant="91" id="yuX-N4-01z"/>
                                 </constraints>
                             </view>

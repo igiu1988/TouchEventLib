@@ -18,9 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 打开这个注释可以验证手势的优先级比普通 UIResponsder 高
 //    LXFTapGestureRecognizer *tap = [[LXFTapGestureRecognizer alloc] initWithTarget:self action:@selector(actionTap)];
 //    [self.view addGestureRecognizer:tap];
-    
+
+
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(actionPan)];
 //    pan.cancelsTouchesInView = NO;
 //    pan.delaysTouchesBegan = YES;
